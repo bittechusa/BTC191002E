@@ -18,7 +18,10 @@ public class SmokeTest{
 		System.out.println("git");
 	}
 	
-	
+	@Test
+	public void test4() {
+		System.out.println("git");
+	}
 	
 	@Test
 	public void test11() throws IOException {
