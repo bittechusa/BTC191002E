@@ -5,16 +5,25 @@ import java.util.Properties;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.openqa.selenium.WebDriver;
 
 import util.Shared;
 
 
 public class SmokeTest{
+	WebDriver driver;
 	Properties prop;
 	@Test
-	public void test1() throws IOException {
+	public void test1() {
+		System.out.println("git");
+	}
+	
+	
+	
+	@Test
+	public void test11() throws IOException {
 		prop=Shared.readProp("/Users/bittechconsulting/eclipse-workspace/BTC191002E/LoopPractice/src/test/resources/com/data/data.properties");
-		Assert.assertTrue(driver.getTitle().contains(prop.getProperty("title")));
+		//Assert.assertTrue(driver.getTitle().contains(prop.getProperty("title")));
 		//or
 		if(driver.getTitle().contains(prop.getProperty("title")))
 		{
