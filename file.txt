@@ -1,0 +1,8 @@
+cd--change directory
+mkdir--create a folder
+ls--to see list
+touch--create a file
+vi/nano--editor
+cat--to see what file contains
+grep---to get string value from a file
+sudo--admin power
