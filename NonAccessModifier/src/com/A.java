@@ -3,7 +3,12 @@ package com;
 public class A extends Demo{
 	//A x=m5();
 	
+	
+	
+	
+	
 	A m5() {
+	System.out.println("new code");
 		return new A();
 	}
 	A(int a)
